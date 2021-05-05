@@ -1,8 +1,11 @@
-# Tamplate_Relatorio_Estagio_UECE_FAFIDAM
+# Template_Relatorio_Estagio_UECE_FAFIDAM
 ![uece](https://user-images.githubusercontent.com/72898972/117156016-a847af00-ad93-11eb-90ab-465e2c362fd0.png)
 
-Template em LaTeX do relatório de estágio destinado a estudantes da Universidade Estadual do Ceará  (UECE). 
+
+Template em LaTeX do relatório de estágio destinado a estudantes da Universidade Estadual do Ceará (UECE).
 Projeto para auxiliar os estudantes das disciplinas de Estágio supervisionado de ensino da Universidade Estadual do Ceará.
+
+O presente projeto foi parte de uma das atividades realizadas pelo o autor durante a Monitoria das disciplinas de Estágio de Ensino de Ciências e Física 1. 
 
 # Começo por onde?
 Para usar o Tamplate_Relatorio_Estagio_UECE_FAFIDAM siga os seguintes passos: 
@@ -46,6 +49,7 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 ```
 \includepdf[pages=-]{apendice/PLANO_DE_AULA_1}
 ```
+**Obs.:** É importante que todos os arquivos em PDF a serem utilizados no apendice, devem estar na pasta *apendice*. Inclusão de arquivos em PDF está
 ## Criando Capítulo:
 ```
 \chapter{Fundamentação Teórica}
@@ -68,4 +72,9 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 \label{subsubsec:primeira-aula112}
 ```
 # Atenção !
-O Tamplate_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser redistribuído livremente para fins acadêmicos. O template não se encontra vinculado oficialmente à Universidade Estadual do Ceará (UECE)
+O Template_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser redistribuído livremente para fins acadêmicos. O template não se encontra vinculado oficialmente à Universidade Estadual do Ceará (UECE)
+
+# Agradecimentos
+Prof. Dr. Robson Guimarães Sanabio, orientador da Monitoria de Estágio de Ensino de Ciências e Física 1.
+
+Profa. Ma. Francisca Daniele Costa de Lima Beserra, Professora de Estágio de ensino de Física 2 e 3 e Coordenadora dos Estágios supervisionados da Faculdade de Filosofia Dom Aureliano Matos (FAFIDAM - UECE)
