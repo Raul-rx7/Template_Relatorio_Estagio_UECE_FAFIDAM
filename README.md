@@ -9,4 +9,39 @@ Para usar o Tamplate_Relatorio_Estagio_UECE_FAFIDAM siga os seguintes passos:
 
 1. Clique [aqui](https://github.com/Raul-rx7/Tamplate_Relatorio_Estagio_UECE_FAFIDAM/archive/refs/heads/main.zip) para realizar o download do projeto.
 2. Desempacote o arquivo no diretório de sua preferência.
-3. 
+3. Abra a pasta e em seguida o arquivo *template_relatorio_estagio.tex* 
+
+# Como compilar? 
+Caso você for iniciante e não tenha em sua máquina o programa compilador de texto para gerar o PDF siga os seguintes links:
+
+- **Windows**: basta acessar [http://www.profmat.cefetmg.br/modelos-dissertacao/latex/instalacao-do-latex/] e seguir os passos indicados pelo o autor
+
+- **Linux**: para distros Ubuntu e derivados basta acessar [https://www.edivaldobrito.com.br/editor-latex-texstudio-no-ubuntu/] e seguir os passos indicados pelo o autor
+
+# Observações
+- Por se tratar de um projeto compacto, o arquivo *template_relatorio_estagio.tex* contém os elementos pré-textuais (capa, contra-capa, sumário) juntos aos elementos textuais (introdução, fundamentação teórica, metodologia, discusão, conclusão) e pós-textuais (referências bibliográficas, apêndice). **Portanto, todo o texto deve ser escrito no arquivo *template_relatorio_estagio.tex***
+
+- É pertinente que o **estagiário preencha todos os dados do seu estágio** (seu nome, professor, coordenador de estágio, o estágio) tanto na capa, quanto na contra capa e na página de assinatura
+- O sumário é preenchido de forma automática
+
+# Dicas
+## Inserindo comentários: 
+  Os comentários são inseridos utilizando '%' antes, pois dessa maneira não aparecerá no texto do PDF
+  Exemplo:   ``` 
+              % o texto vem aqui 
+             ```
+
+
+## Inserindo imagens:
+  ```
+  \begin{figure}
+		\centering 
+		\includegraphics[scale=2.5]{figuras/nome_do_arquivo}
+	\end{figure} 
+  ```
+  **Obs.:** É importante que todas as imagens a serem utilizadas no texto, sejam alocadas na pasta *figuras* !
+
+## Inserindo arquivo PDF: 
+```
+\includepdf[pages=-]{apendice/PLANO_DE_AULA_1}
+```
