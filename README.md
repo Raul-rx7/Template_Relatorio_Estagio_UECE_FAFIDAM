@@ -7,6 +7,6 @@ Projeto para auxiliar os estudantes das disciplinas de Estágio supervisionado d
 # Começo por onde?
 Para usar o Tamplate_Relatorio_Estagio_UECE_FAFIDAM siga os seguintes passos: 
 
-- Clique [aqui](https://github.com/Raul-rx7/Tamplate_Relatorio_Estagio_UECE_FAFIDAM/archive/refs/heads/main.zip) para realizar o download do projeto.
-- Desempacote o arquivo no diretório de sua preferência.
-- 
+1. Clique [aqui](https://github.com/Raul-rx7/Tamplate_Relatorio_Estagio_UECE_FAFIDAM/archive/refs/heads/main.zip) para realizar o download do projeto.
+2. Desempacote o arquivo no diretório de sua preferência.
+3. 
