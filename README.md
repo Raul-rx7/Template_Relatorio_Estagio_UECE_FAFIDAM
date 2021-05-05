@@ -77,4 +77,6 @@ O Template_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser 
 # Agradecimentos
 Prof. Dr. Robson Guimarães Sanabio, orientador da Monitoria de Estágio de Ensino de Ciências e Física 1.
 
-Profa. Ma. Francisca Daniele Costa de Lima Beserra, Professora de Estágio de ensino de Física 2 e 3 e Coordenadora dos Estágios supervisionados da Faculdade de Filosofia Dom Aureliano Matos (FAFIDAM - UECE)
+Profa. Ma. Francisca Daniele Costa de Lima Beserra, Professora de Estágio de ensino de Física 2 e 3 e Coordenadora dos Estágios supervisionados da Faculdade de Filosofia Dom Aureliano Matos (FAFIDAM - UECE).
+
+Eduardo Yohann, designer gráfico responsável pela montagem da logo do projeto.
