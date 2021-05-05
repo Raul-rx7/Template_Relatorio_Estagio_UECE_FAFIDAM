@@ -1,6 +1,5 @@
 # Template_Relatorio_Estagio_UECE_FAFIDAM
-![uece](https://user-images.githubusercontent.com/72898972/117156016-a847af00-ad93-11eb-90ab-465e2c362fd0.png)
-
+![template](https://user-images.githubusercontent.com/72898972/117222708-7c9fe580-ade2-11eb-9a59-9951c7818673.png)
 
 Template em LaTeX do relatório de estágio destinado a estudantes da Universidade Estadual do Ceará (UECE).
 Projeto para auxiliar os estudantes das disciplinas de Estágio supervisionado de ensino da Universidade Estadual do Ceará.
