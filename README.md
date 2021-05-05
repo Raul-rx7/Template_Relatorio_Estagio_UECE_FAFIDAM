@@ -27,6 +27,7 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 # Dicas
 ## Inserindo comentários: 
   Os comentários são inseridos utilizando '%' antes, pois dessa maneira não aparecerá no texto do PDF
+  
   Exemplo:   ``` 
               % o texto vem aqui 
              ```
@@ -45,3 +46,26 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 ```
 \includepdf[pages=-]{apendice/PLANO_DE_AULA_1}
 ```
+## Criando Capítulo:
+```
+\chapter{Fundamentação Teórica}
+\label{cap:fundamentacao-teorica}
+```
+## Criando seções
+### Seção secundária: 
+```
+\section{Primeira aula}
+\label{sec:primeira-aula}
+```
+### Seção terciária:
+```
+\subsection{Primeira aula 1.1}
+\label{subsec:primeira-aula11}
+```
+### Seção quaternária:
+```
+\subsubsection{Primeira aula 1.1.2}
+\label{subsubsec:primeira-aula112}
+```
+# Atenção !
+O Tamplate_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser redistribuído livremente para fins acadêmicos. O template não se encontra vinculado oficialmente à Universidade Estadual do Ceará (UECE)
