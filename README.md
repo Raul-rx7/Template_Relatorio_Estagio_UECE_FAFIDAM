@@ -31,7 +31,7 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
   Os comentários são inseridos utilizando '%' antes, pois dessa maneira não aparecerá no texto do PDF
   
   Exemplo:   ``` 
-              % o texto vem aqui 
+              % o comentário vem aqui 
              ```
 
 
