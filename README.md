@@ -11,7 +11,7 @@ Para usar o Tamplate_Relatorio_Estagio_UECE_FAFIDAM siga os seguintes passos:
 
 1. Clique [aqui](https://github.com/Raul-rx7/Tamplate_Relatorio_Estagio_UECE_FAFIDAM/archive/refs/heads/main.zip) para realizar o download do projeto.
 2. Desempacote o arquivo no diretório de sua preferência.
-3. Abra a pasta e em seguida o arquivo *template_relatorio_estagio.tex* 
+3. Abra a pasta e em seguida o arquivo *template_relatorio_estagio.tex* para dar início a escrita.
 
 # Como compilar? 
 Caso você for iniciante e não tenha em sua máquina o programa compilador de texto para gerar o PDF siga os seguintes links:
