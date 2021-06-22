@@ -37,10 +37,10 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 
 ## Inserindo imagens:
   ```
-  \begin{figure}
-		\centering 
-		\includegraphics[scale=2.5]{figuras/nome_do_arquivo}
-	\end{figure} 
+\begin{figure}
+	\centering 
+	\includegraphics[scale=2.5]{figuras/nome_do_arquivo}
+\end{figure} 
   ```
   **Obs.:** É importante que todas as imagens a serem utilizadas no texto, sejam alocadas na pasta *figuras* !
 
@@ -48,7 +48,7 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 ```
 \includepdf[pages=-]{apendice/PLANO_DE_AULA_1}
 ```
-**Obs.:** É importante que todos os arquivos em PDF a serem utilizados no apendice, devem estar na pasta *apendice*. Inclusão de arquivos em PDF está
+**Obs.:** É importante que todos os arquivos em PDF a serem utilizados no apendice, devem estar na pasta *apendice*.
 ## Criando Capítulo:
 ```
 \chapter{Fundamentação Teórica}
@@ -92,11 +92,13 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 ```
 \begin{enumerate}[label=\Roman*.]
 
-	\item Primeira enumeração em algarismo romano
-	\item Segunda enumeração em algarismo romano
+\item Primeira enumeração em algarismo romano
+\item Segunda enumeração em algarismo romano
 
 \end{enumerate}
 ```
+
+Para iniciantes em LaTeX é aconselhável verificar a apostila desenvolvida pelo Programa Especial de Treinamento do curso de Telecomunicações (PETTELE) da Universidade Federal Fluminense no [link](http://each.uspnet.usp.br/sarajane/wp-content/uploads/2016/10/manual-latex-1.pdf).
 
 # Atenção !
 O Template_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser redistribuído livremente para fins acadêmicos. O template não se encontra vinculado oficialmente à Universidade Estadual do Ceará (UECE)
