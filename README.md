@@ -11,7 +11,7 @@ Para usar o Tamplate_Relatorio_Estagio_UECE_FAFIDAM siga os seguintes passos:
 
 1. Clique [aqui](https://github.com/Raul-rx7/Tamplate_Relatorio_Estagio_UECE_FAFIDAM/archive/refs/heads/main.zip) para realizar o download do projeto.
 2. Desempacote o arquivo no diretório de sua preferência.
-3. Abra a pasta e em seguida o arquivo *template_relatorio_estagio.tex* 
+3. Abra a pasta e em seguida o arquivo *template_relatorio_estagio.tex* para dar início a escrita.
 
 # Como compilar? 
 Caso você for iniciante e não tenha em sua máquina o programa compilador de texto para gerar o PDF siga os seguintes links:
@@ -19,6 +19,8 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 - **Windows**: basta acessar [http://www.profmat.cefetmg.br/modelos-dissertacao/latex/instalacao-do-latex/] e seguir os passos indicados pelo o autor
 
 - **Linux**: para distros Ubuntu e derivados basta acessar [https://www.edivaldobrito.com.br/editor-latex-texstudio-no-ubuntu/] e seguir os passos indicados pelo o autor
+
+Para iniciantes em LaTeX é aconselhável verificar a apostila desenvolvida pelo Programa Especial de Treinamento do curso de Telecomunicações (PETTELE) da Universidade Federal Fluminense no [link](http://each.uspnet.usp.br/sarajane/wp-content/uploads/2016/10/manual-latex-1.pdf). A apostila é altamente útil para o desenvolvimento do conhecimento da ferramenta LaTeX.
 
 # Observações
 - Por se tratar de um projeto compacto, o arquivo *template_relatorio_estagio.tex* contém os elementos pré-textuais (capa, contra-capa, sumário) juntos aos elementos textuais (introdução, fundamentação teórica, metodologia, discusão, conclusão) e pós-textuais (referências bibliográficas, apêndice). **Portanto, todo o texto deve ser escrito no arquivo *template_relatorio_estagio.tex***
@@ -31,24 +33,24 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
   Os comentários são inseridos utilizando '%' antes, pois dessa maneira não aparecerá no texto do PDF
   
   Exemplo:   ``` 
-              % o texto vem aqui 
+              % o comentário vem aqui 
              ```
 
 
 ## Inserindo imagens:
   ```
-  \begin{figure}
-		\centering 
-		\includegraphics[scale=2.5]{figuras/nome_do_arquivo}
-	\end{figure} 
+\begin{figure}
+	\centering 
+	\includegraphics[scale=2.5]{figuras/nome_do_arquivo}
+\end{figure} 
   ```
   **Obs.:** É importante que todas as imagens a serem utilizadas no texto, sejam alocadas na pasta *figuras* !
 
-## Inserindo arquivo PDF: 
+## Inserindo arquivo PDF: Altamente necessário para incluir arquivos no *Apêndice*
 ```
 \includepdf[pages=-]{apendice/PLANO_DE_AULA_1}
 ```
-**Obs.:** É importante que todos os arquivos em PDF a serem utilizados no apendice, devem estar na pasta *apendice*. Inclusão de arquivos em PDF está
+**Obs.:** É importante que todos os arquivos em PDF a serem utilizados no apendice, devem estar na pasta *apendice*.
 ## Criando Capítulo:
 ```
 \chapter{Fundamentação Teórica}
@@ -70,6 +72,34 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 \subsubsection{Primeira aula 1.1.2}
 \label{subsubsec:primeira-aula112}
 ```
+## Criando itens:
+```
+\begin{itemize}
+
+\item Primeiro item
+\item Segundo item
+
+\end{itemize}
+```
+## Criando enumeração:
+```
+\begin{enumerate}
+
+\item Primeira enumeração
+\item Segunda enumeração
+
+\end{enumerate}
+```
+### Enumeração em algarismo romano:
+```
+\begin{enumerate}[label=\Roman*.]
+
+\item Primeira enumeração em algarismo romano
+\item Segunda enumeração em algarismo romano
+
+\end{enumerate}
+```
+
 # Atenção !
 O Template_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser redistribuído livremente para fins acadêmicos. O template não se encontra vinculado oficialmente à Universidade Estadual do Ceará (UECE)
 
