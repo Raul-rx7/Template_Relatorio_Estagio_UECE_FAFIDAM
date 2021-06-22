@@ -44,7 +44,7 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
   ```
   **Obs.:** É importante que todas as imagens a serem utilizadas no texto, sejam alocadas na pasta *figuras* !
 
-## Inserindo arquivo PDF: 
+## Inserindo arquivo PDF: Altamente necessário para incluir arquivos no *Apêndice*
 ```
 \includepdf[pages=-]{apendice/PLANO_DE_AULA_1}
 ```
@@ -70,6 +70,34 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 \subsubsection{Primeira aula 1.1.2}
 \label{subsubsec:primeira-aula112}
 ```
+## Criando itens:
+```
+\begin{itemize}
+
+\item Primeiro item
+\item Segundo item
+
+\end{itemize}
+```
+## Criando enumeração:
+```
+\begin{enumerate}
+
+\item Primeira enumeração
+\item Segunda enumeração
+
+\end{enumerate}
+```
+### Enumeração em algarismo romano:
+	```
+	\begin{enumerate}[label=\Roman*.]
+
+	\item Primeira enumeração em algarismo romano
+	\item Segunda enumeração em algarismo romano
+
+	\end{enumerate}
+	```
+
 # Atenção !
 O Template_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser redistribuído livremente para fins acadêmicos. O template não se encontra vinculado oficialmente à Universidade Estadual do Ceará (UECE)
 
