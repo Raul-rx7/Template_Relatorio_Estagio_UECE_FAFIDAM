@@ -1,23 +1,55 @@
-\documentclass[a4paper, 12 pt]{article}                                	%TIPO DE FOLHA, TAMANHO DA FONTE E CLASSE DO DOCUMENTO
-\usepackage[utf8]{inputenc}                                            	%IDENTIFICAÇÃO DE CARACTERES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% BEM VINDOS AO Template_Relatorio_Estagio_UECE_FAFIDAM (versão 1.1)!%%
+%%                                                                    %%
+%% Template em LaTeX do relatório de estágio destinado                %%
+%% a estudantes da Universidade Estadual do Ceará (UECE).             %%
+%%                                                                    %%
+%% Projeto para auxiliar os estudantes das disciplinas de Estágio     %% 
+%% Supervisionado de Ensino da FAFIDAM/UECE.   						  %%
+%% 														              %%
+%% O Template_Relatorio_Estagio_UECE_FAFIDAM é fornecido              %%
+%% gratuitamente e pode ser redistribuído livremente                  %%
+%% para fins acadêmicos. O template não se encontra vinculado         %%
+%% oficialmente à Universidade Estadual do Ceará (UECE).              %%
+%%                                                                    %%
+%%                                                                    %%
+%% Projeto realizado e mantido por Raul Victor de Oliveira Paiva.     %%
+%%                                                                    %%
+%% Projeto encontrado para download em: 					          %%
+%% https://github.com/Raul-rx7/Template_Relatorio_Estagio_UECE_FAFIDAM%%
+%% 														              %%
+%% Versão do projeto: 1.1								              %%
+%%                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PREAMBULO  %%%%%%%%%  CONFIGURAÇÕES DO DOCUMENTO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, 12 pt]{article}                                	% TIPO DE FOLHA, TAMANHO DA FONTE E CLASSE DO DOCUMENTO
+\usepackage[utf8]{inputenc}                                            	% IDENTIFICAÇÃO DE CARACTERES
 \usepackage{mathptmx}
 \usepackage{amsmath}
-\usepackage{graphicx}                                                  	%ANEXAR IMAGENS
-\usepackage{float}
+\usepackage{enumitem}													% PACOTE P/ CONFIGURAR ITEM DE ENUMERAÇÃO 
+\usepackage{graphicx}                                                  	% ANEXAR IMAGENS
+\usepackage{float}														% AUXILIO NA ALOCAÇÃO DE IMAGENS
 \usepackage{amssymb}
-\usepackage{makeidx}
+\usepackage{makeidx}													% MONTAGEM DE INDICE 
 \usepackage{pdfpages} 													% ANEXAR PDF
 \usepackage[hidelinks]{hyperref}										% MONTAR OS LINKS E ESCONDER A MARCANÇÃO DE LINKS DO SUMMÁRIO
-\usepackage[toc,page]{appendix}                                        
+\usepackage[toc,page]{appendix}                                        	% PACOTE PARA PAGINA DE APENDICE
 \usepackage[brazil]{babel}                                             	% PACOTE PARA PORTUGÊS - BR
 \usepackage{indentfirst}                                               	% AJUSTAR PRIMEIRA LINHA DO PARAGRÁFO
 \usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}    	% MARGENS 
 \usepackage{setspace}                                                  	% UTILIZAÇÃO DE ESPAÇAMENTO
 
 \setlength{\parindent}{1.5cm}                  							%AJUSTE DO PARAGRÁFO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-	%%%%%%%%%%% CAPA %%%%%%%%%%%
+	
+	
+
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CAPA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ATENÇÃO: PREENCHER OS DADOS NECESSÁRIOS!!! 
 	\begin{titlepage}
 		\begin{center}
 			\begin{figure}
@@ -27,26 +59,30 @@
 			
 			\large
 			\textbf{UNIVERSIDADE ESTADUAL DO CEARÁ - UECE\\ \vspace{0.5cm}
-				FACULDADE DE FILOSOFIA DOM AURELIANO MATOS - FAFIDAM\\ \vspace{0.5cm}
+				FACULDADE DE FILOSOFIA DOM AURELIANO MATOS - FAFIDAM\\ \vspace{0.5cm} % NÃO ESTUDANTE DA FAFIDAM BASTA APAGAR ESTA LINHA OU DEIXA-LA COMO COMENTÁRIO !!! 
 				NOME DO CURSO \\ \vspace{0.5cm}
-				DISCIPLINA: \\ \vspace{0.5cm}
-				PROFESSOR(A): \\ \vspace{0.5cm}
-				ALUNO(A):\textnormal{ FULANO DE TAL} \\ \vspace{5cm}
-				RELATÓRIO DE ... \\ \vspace{7cm}
+				DISCIPLINA: NOME DA DISCIPLINA \\ \vspace{0.5cm}
+				PROFESSOR(A): NOME DO DOCENTE\\ \vspace{0.5cm}
+				ALUNO(A):\textnormal{ NOME DO ESTAGIÁRIO} \\ \vspace{5cm}
+				RELATÓRIO DE ... (NOME DA DISCIPLINA) \\ \vspace{7cm}
 				Cidade - SIGLA ESTADO \\ \vspace{0.5cm} \today{}}  % "\today":  DATA (PREENCHIMENTO AUTOMÁTICO)
 		\end{center}
 	\end{titlepage}
-		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+
+
+
 	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONTRA CAPA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ATENÇÃO: PREENCHER OS DADOS NECESSÁRIOS!!! 
 	\newpage
 	\begin{center}
 		UNIVERSIDADE ESTADUAL DO CEARÁ - UECE\\ \vspace{0.5cm}
 		FACULDADE DE FILOSOFIA DOM AURELIANO MATOS - FAFIDAM\\ \vspace{0.5cm}
 		NOME DO CURSO \\ \vspace{0.5cm}
-		ALUNO(A):\textnormal{ FULANO DE TAL} \\ \vspace{8cm}
+		ALUNO(A):\textnormal{ NOME DO ESTAGIÁRIO} \\ \vspace{8cm}
 		
 		\begin{flushright}
-			\hspace*{8cm}\parbox{8.5cm}{{Relatório apresentado ao curso de licenciatura plena em Física da Faculdade de Filosofia Dom Aureliano Matos da Universidade Estadual do Ceará, como parte da exigência da disciplina de Estágio de Ensino de Física 2 ministrada pela Professora Francisca Daniele Costa De Lima Beserra.}}
+			\hspace*{8cm}\parbox{8.5cm}{{Relatório apresentado ao curso de licenciatura plena em Física da Faculdade de Filosofia Dom Aureliano Matos da Universidade Estadual do Ceará, como parte da exigência da disciplina de Estágio de Ensino de Física 2 ministrada pela Professora NOME DA PROFESSORA(OR).}}
 			
 		\end{flushright}
 		
@@ -57,15 +93,18 @@
 		\today{}		% DATA (PREENCHIMENTO AUTOMÁTICO)
 	\end{center}
 	\thispagestyle{empty}
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 	\newpage 
 	
-	%%%%%%%%%% PÁGINA DE ASSINATURA %%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%% PÁGINA DE ASSINATURA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	ATENÇÃO: PREENCHER OS DADOS NECESSÁRIOS!!! 
 	\begin{center}
 	UNIVERSIDADE ESTADUAL DO CEARÁ - UECE\\ \vspace{0.5cm}
 	FACULDADE DE FILOSOFIA DOM AURELIANO MATOS - FAFIDAM\\ \vspace{0.5cm}
 	NOME DO CURSO \\ \vspace{0.5cm}
-	ALUNO(A):\textnormal{ FULANO DE TAL} \\ \vspace{5cm}
+	ALUNO(A):\textnormal{ NOME DO ESTAGIÁRIO} \\ \vspace{5cm}
 		
 		\rule{15 cm}{0.008 cm}
 		Aluno(a)
@@ -73,7 +112,7 @@
 		\vspace{5 cm}
 		
 		\rule{15 cm}{0.008 cm}
-		Coordenador(a) de Estágio: % NOME DO COORDENADOR DO ESTÁGIO
+		Coordenador(a) de Estágio: NOME DO COORDENADOR DO ESTÁGIO
 		
 		\vspace{9 cm}
 		\textbf{Cidade - ESTADO}
@@ -82,45 +121,60 @@
 		
 	\end{center}
 	\thispagestyle{empty}
-	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+
 	\newpage
-	\tableofcontents                         %SUMÁRIO (PREENCHIMENTO AUTOMÁTICO)
-	\thispagestyle{empty}
+
+
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SUMÁRIO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\tableofcontents                        % SUMÁRIO (PREENCHIMENTO AUTOMÁTICO)
+	\thispagestyle{empty}					% A PÁGINA DO SUMÁRIO NÃO POSSUI NUMERAÇÃO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+
+	
+	\newpage                                 % NOVA PÁGINA
 	
 	
-	\newpage                                 %NOVA PÁGINA
-	
-	\setstretch{1.5}                         %ESPAÇAMENTO
-	
-	
-	%%%%%%%%%% ELEMENTOS TEXTUAIS %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ELEMENTOS TEXTUAIS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\setstretch{1.5}                         % ESPAÇAMENTO ENTRELIHAS DA INTRODUÇÃO 
 	\section{Introdução}
 	\label{sec:introducao}
 	
 	%%% EXEMPLO DE INTRODUÇÃO:
+	EXEMPLO DE INTRODUÇÃO:
 	O presente trabalho visa relatar o processo de estágio de física 2 vivenciado
-	durante a disciplina de Estágio de Ensino de Física 2 na turma do 2º ano do Colégio Oliveira Paiva, ministrado pela Professora Fabiane Souza, do curso de Licenciatura plena em Física da Faculdade de Filosofia Dom Aureliano Matos.
+	durante a disciplina de Estágio de Ensino de Física 2 na turma do 2º ano do Colégio Presidente Vargas, ministrado pela Professora Fabiane Lima, do curso de Licenciatura plena em Física da Faculdade de Filosofia Dom Aureliano Matos.
 	
-	A Escolha do Colégio Oliveira Paiva, localizado em Morada Nova, foi devido a proximidade do Professor Matheus Soares, o que facilitou na fluidez da relação estagiário - supervisor. Então pedi ao mesmo, que dá aulas de física e matemática na referida escola a bastante tempo, para estagiar em seus horários. Muito bem acolhido pelo Professor e Coordenação, foi dado início ao estágio supervisionado.
+	A Escolha do Colégio Presidente Vargas, localizado em Morada Nova, foi devido a proximidade do Professor Matheus Soares, o que facilitou na fluidez da relação estagiário - supervisor. Então foi pedido ao mesmo, que dá aulas de física e matemática na referida escola a bastante tempo, para estagiar em seus horários. Muito bem acolhido pelo Professor e Coordenação, foi dado início ao estágio supervisionado.
 	
-	O estágio foi realizado seguindo uma turma de segundo ano no turno matutino do Colégio Oliveira Paiva. O presente relatório está dividido em encontros e possui apontamentos de elementos sobre as turmas, o professor, aulas, atividades e minha experiência em geral.
+	O estágio foi realizado seguindo uma turma de segundo ano no turno matutino do Colégio Presidente Vargas. O presente relatório está dividido em encontros e possui apontamentos de elementos sobre as turmas, o professor, aulas, atividades e minha experiência em geral.
 	
-	\setstretch{1.5}
-	\section{Objetivos}
-	
-	\begin{itemize}   %% EXEMPLO DE MONTAGEM DOS ITENS
+	\setstretch{1.5} 	% ESPAÇAMENTO ENTRELIHAS DOS OBJETIVOS
+	\section{Objetivos} 
+	%%% VOCÊ PODE ELENCAR OS OBJETIVOS POR ITENS OU NUMERAÇÃO
+	\begin{itemize}   %%% EXEMPLO DE ITENS
 		
 		%%% EXEMPLO DE OBJETIVOS:
 		\item Buscar vivenciar e aprender na prática o manejo de uma aula;
 		\item Observar o comportamento da turma e identificar as possíveis práticas para correções dos problemas apontados;
 	\end{itemize}
 	
-	
+	\begin{enumerate} %%% EXEMPLO DE ENUMERAÇÃO
+		\item Exemplo de Enumeração
+		\item Exemplo de Enumeração
+	\end{enumerate}
+
+	\begin{enumerate}[label=\Roman*.] %%% EXEMPLO DE ENUMERAÇÃO EM ALGARISMO ROMANO
+		\item Exemplo de Enumeração em algarismo romano
+		\item Exemplo de Enumeração	em algarismo romano
+	\end{enumerate}
 	\
 	%\
 	%\
 	
-	\setstretch{1.5}
+	\setstretch{1.5}	% ESPAÇAMENTO ENTRELIHAS DOS FUNDAMENTOS TEÓRICOS
 	\section{Fundamentos Teóricos}
 	
 	\setstretch{1.5}
@@ -128,6 +182,7 @@
 	MONTAR A FUNDAMENTAÇÃO TEÓRICA QUE DEFENDA O ENSINO DE CIÊNCIAS MOSTRANDO SUA IMPORTÂNCIA PARA A SOCIEDADE.
 	
 	
+	\setstretch{1.5}	% ESPAÇAMENTO ENTRELIHAS DA METODOLOGIA
 	\section{Metodologia}
 	\label{sec:metodologia}
 	
@@ -179,9 +234,11 @@
 	\newpage
 	\section{Referências Bibliográficas}   
 	
-	EXEMPLOS DE CITAÇÃO:
-	%%%%%%%%% DICA: PEGAR CITAÇÃO NO SITE DO GOOGLE ACADÊMICO (GOOGLE SCHOLAR) - BASTA ESCREVER O NOME DA OBRA %%%%%%%%%%
+	%%%%%%%%% DICA: PEGAR CITAÇÃO NO SITE DO GOOGLE ACADÊMICO (GOOGLE SCHOLAR) - BASTA ESCREVER O NOME DA OBRA NA ABA DE BUSCA %%%%%%%%%%
 	
+	EXEMPLOS:
+	
+	\
 	
 	CARVALHO, Ana Maria Pessoa de et al. Ciência no Ensino Fundamental: O conhecimento físico do mundo. São Paulo: Scipione, 2007;
 	
@@ -196,11 +253,11 @@
 	\newpage
 	
 	%%%%%%%%% APÊNDICE: INCLUSÃO DE DOCUMENTOS ELABORADOS PELO AUTOR QUE POSSAM COMPLEMENTAR O TEXTO %%%%%%%%%
-	%%%%%%%%% ESPAÇO ONDE PODE SER INCLUÍDO FICHA DE OBSERVAÇÃO, PLANOS DE AULA, ETC %%%%%%%%%%%
+	%%%%%%%%% ESPAÇO ONDE PODE SER INCLUÍDO FICHA DE OBSERVAÇÃO, PLANOS DE AULA, ETC %%%%%%%%%%%%%%%%%%%%%%%%%
 	\appendix
-	\section{Ficha de observação}  % EXEMPLO DE INCLUSÃO DE PDF  
+	\section{Ficha de observação}  % INCLUSÃO DA FICHA DE OBSERVAÇÃO APENDICE  
 	\label{ap:ficha}
-	%\includepdf[pages=-]{apendice/observacao} %% PARA INCLUIR BASTA RETIRAR A PORCETAGEM ANTES DE "\includepdf[pages=-]{apendice/observacao}"
+	\includepdf[pages=-]{apendice/pdf} %% EXEMPLO DE INCLUSÃO DE PDF
 	
 
 
