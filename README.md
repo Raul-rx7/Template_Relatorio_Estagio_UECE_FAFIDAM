@@ -20,6 +20,8 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 
 - **Linux**: para distros Ubuntu e derivados basta acessar [https://www.edivaldobrito.com.br/editor-latex-texstudio-no-ubuntu/] e seguir os passos indicados pelo o autor
 
+Para iniciantes em LaTeX é aconselhável verificar a apostila desenvolvida pelo Programa Especial de Treinamento do curso de Telecomunicações (PETTELE) da Universidade Federal Fluminense no [link](http://each.uspnet.usp.br/sarajane/wp-content/uploads/2016/10/manual-latex-1.pdf).
+
 # Observações
 - Por se tratar de um projeto compacto, o arquivo *template_relatorio_estagio.tex* contém os elementos pré-textuais (capa, contra-capa, sumário) juntos aos elementos textuais (introdução, fundamentação teórica, metodologia, discusão, conclusão) e pós-textuais (referências bibliográficas, apêndice). **Portanto, todo o texto deve ser escrito no arquivo *template_relatorio_estagio.tex***
 
@@ -97,8 +99,6 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 
 \end{enumerate}
 ```
-
-Para iniciantes em LaTeX é aconselhável verificar a apostila desenvolvida pelo Programa Especial de Treinamento do curso de Telecomunicações (PETTELE) da Universidade Federal Fluminense no [link](http://each.uspnet.usp.br/sarajane/wp-content/uploads/2016/10/manual-latex-1.pdf).
 
 # Atenção !
 O Template_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser redistribuído livremente para fins acadêmicos. O template não se encontra vinculado oficialmente à Universidade Estadual do Ceará (UECE)
