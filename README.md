@@ -89,14 +89,14 @@ Caso você for iniciante e não tenha em sua máquina o programa compilador de t
 \end{enumerate}
 ```
 ### Enumeração em algarismo romano:
-	```
-	\begin{enumerate}[label=\Roman*.]
+```
+\begin{enumerate}[label=\Roman*.]
 
 	\item Primeira enumeração em algarismo romano
 	\item Segunda enumeração em algarismo romano
 
-	\end{enumerate}
-	```
+\end{enumerate}
+```
 
 # Atenção !
 O Template_Relatorio_Estagio_UECE_FAFIDAM é fornecido gratuitamente e pode ser redistribuído livremente para fins acadêmicos. O template não se encontra vinculado oficialmente à Universidade Estadual do Ceará (UECE)
