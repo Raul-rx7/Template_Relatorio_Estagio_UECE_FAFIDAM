@@ -1,4 +1,4 @@
-# Template_Relatorio_Estagio_UECE_FAFIDAM
+# Template de Relatorio de Estagio em Ensino - UECE - FAFIDAM
 ![template](https://user-images.githubusercontent.com/72898972/117222708-7c9fe580-ade2-11eb-9a59-9951c7818673.png)
 
 Template em LaTeX do relatório de estágio destinado a estudantes da Universidade Estadual do Ceará (UECE).
@@ -109,3 +109,4 @@ Prof. Dr. Robson Guimarães Sanabio, orientador da Monitoria de Estágio de Ensi
 Profa. Ma. Francisca Daniele Costa de Lima Beserra, Professora de Estágio de ensino de Física 2 e 3 e Coordenadora dos Estágios supervisionados da Faculdade de Filosofia Dom Aureliano Matos (FAFIDAM - UECE).
 
 Eduardo Yohann, designer gráfico responsável pela montagem da logo do projeto. Clique [aqui](https://www.instagram.com/duduyohannphotos/) para ver um pouco de seus trabalhos.
+
