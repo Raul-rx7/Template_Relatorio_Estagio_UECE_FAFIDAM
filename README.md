@@ -1,7 +1,7 @@
 # Template de Relatorio de Estagio em Ensino - UECE - FAFIDAM
 ![template](https://user-images.githubusercontent.com/72898972/117222708-7c9fe580-ade2-11eb-9a59-9951c7818673.png)
 
-Template em LaTeX do relatório de estágio destinado a estudantes da Universidade Estadual do Ceará (UECE).
+Template em LaTeX do relatório de estágio destinado a estudantes dos cursos de licenciatura da Universidade Estadual do Ceará (UECE).
 Projeto para auxiliar os estudantes das disciplinas de Estágio supervisionado de ensino da Universidade Estadual do Ceará.
 
 O presente projeto foi parte de uma das atividades realizadas pelo o autor durante a Monitoria das disciplinas de Estágio de Ensino de Ciências e Física 1. 
